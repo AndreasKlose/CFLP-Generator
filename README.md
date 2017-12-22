@@ -5,14 +5,14 @@ The proram "gencflp" randomly generates test problem instances for the capacitat
 to a proposal of Cornuejols et al. (1991).
 
 # Files
-gencflp.c        C code of the test instance generator
-gencflp.input1   input file for creating the test instances in Klose and Goertz (2007)
-gencflp.input2   input file for creating the test instances in Goertz and Klose (2012)
-Makefile         Makefile for compiling on a Linux system
-Optsol1.txt      optimal solutions (objective value, set of open depots) to KG (2007) instances
-Optsol2.txt      optimal solutions to GK (2012) instances
-rnd.c            random number generator by Lionnel Maugis
-rnd.h            header file to rnd.c
+- gencflp.c        C code of the test instance generator
+- gencflp.input1   input file for creating the test instances in Klose and Goertz (2007)
+- gencflp.input2   input file for creating the test instances in Goertz and Klose (2012)
+- Makefile         Makefile for compiling on a Linux system
+- Optsol1.txt      optimal solutions (objective value, set of open depots) to KG (2007) instances
+- Optsol2.txt      optimal solutions to GK (2012) instances
+- rnd.c            random number generator by Lionnel Maugis
+- rnd.h            header file to rnd.c
 
 # Usage
 gencflp inputfile path
