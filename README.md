@@ -1,8 +1,5 @@
 # CFLP-Instance-Generator
-Generates test problem instances for the Capacitated Facility Location Problem
-
-The proram "gencflp" randomly generates test problem instances for the capacitated facility location problem according
-to a proposal of Cornuejols et al. (1991).
+Generates test problem instances for the Capacitated Facility Location Problem according to a proposal of Cornuejols et al. (1991).
 
 # Files
 - gencflp.c        C code of the test instance generator
