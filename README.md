@@ -5,7 +5,7 @@ The proram "gencflp" randomly generates test problem instances for the capacitat
 to a proposal of Cornuejols et al. (1991).
 
 # Usage
-gencflp <inputfile> <path>
+gencflp inputfile path
          
 where
 - inputfile is an ascii file providing information about the test problem instances which "gencflp" should generate.
@@ -13,8 +13,7 @@ where
   (1) Seed, i.e. an integer number specifying the seed number for the random number generator (if Seed=0 a seed number
       is generated automatically)
   (2) For every problem class:
-      #customers  #depot sites  ratio  problem name             
-      
+        #customers  #depot sites  ratio  problem name             
       where "ratio" is the desired ratio of total capacity to total demand.
   
 - path is an optional argument specifying the output path          
